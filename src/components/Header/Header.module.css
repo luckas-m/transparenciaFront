@@ -1,0 +1,140 @@
+.header{
+    background-color: #034EA2;
+}
+
+.header > h2, h3, h3, a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+h2{
+    color: #ffffff;
+}
+
+a:hover{
+    color: #1f7be4;
+}
+
+.headerTopo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding: 8px;
+}
+
+.headerTopo>div{
+    width: 20%;
+}
+
+.headerTopo>div:nth-child(2){
+    width: 10%;
+}
+
+.headerTopo>div>ul>li>a{
+    display: flex;
+    align-items: center;
+    margin-top: 4px;
+}
+
+
+.headerTopo>div>ul>li>a>span:nth-child(1){
+    vertical-align: super;
+}
+
+.headerTopo>div>ul>li>a>span:nth-child(2){
+    vertical-align: super;
+}
+
+
+.funcoesSite, .sociais{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    flex-wrap: wrap;
+}
+
+.headerMeio{
+    display: flex;
+    flex-direction: row;
+    padding: 16px;
+    padding-left: 32px;
+    border: solid 1px #ffffff6b;
+    align-items: center;
+}
+
+.headerMeio > div > h2{
+    font-size: 32px;
+    font-family: "Montserrat";
+    font-weight: lighter;
+}
+
+.headerMeio>div{
+    width: 40%;
+}
+
+
+.headerBaixo>div{
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+}
+
+.headerBaixo>div>ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 80%;
+    height: 100%;
+}
+
+.headerBaixo>div{
+    height: 100%;
+}
+
+.headerBaixo>div>ul>li{
+    height: 100%;
+}
+
+.divLink{
+    height: 100%;
+}
+
+.dropdown{
+    display: flex;
+    flex-direction:  column;
+}
+
+.subDropdown{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: #034EA2;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: -30px;
+    left: 200px;
+    border-radius: 8px;
+    width: 10vw;
+}
+
+.dropdown > *, .subDropdown > *{
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 3px;
+    padding-right: 3px;
+    transition: 0.2s;
+}
+
+.dropdown>*:hover, .subDropdown>*:hover{
+    background-color: #024491;
+    padding-left: 5px;
+    border-left: 2.5px solid #000000;
+}
